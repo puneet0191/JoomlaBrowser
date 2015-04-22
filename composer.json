@@ -1,6 +1,6 @@
 {
-    "name": "joomla-browser/hello",
-    "description": "Hello World Module",
+    "name": "joomla-browser",
+    "description": "joomla-browser Module",
     "authors": [
         {
             "name": "Puneet Kala",
