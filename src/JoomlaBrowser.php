@@ -38,9 +38,9 @@ class JoomlaBrowser extends WebDriver
 	 */
 	public function doAdminLogin()
 	{
-		$this->amOnPage($this->adminLoginUrl);
+		$this->amOnUrl($this->adminLoginUrl);
 		$this->fillField('username', $this->config['username']);
-		$this->fillField('password', $this->config['password']);
+		$this->fillField('Password', $this->config['password']);
 		$this->click('Log in');
 	}
 }
