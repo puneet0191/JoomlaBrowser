@@ -1,0 +1,18 @@
+{
+    "name": "namespace/hello",
+    "description": "Hello World Module",
+    "authors": [
+        {
+            "name": "Puneet Kala",
+            "email": "puneet0191@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Module\\": "src"
+        }
+    }
+}
